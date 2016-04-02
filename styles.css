@@ -44,7 +44,6 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
 	content: none;
 }
 
@@ -169,18 +168,18 @@ p {
 .nav-buttons {
 	border:1px solid #fff;
 	background: red; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(red, orange); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(red, orange); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(red, orange); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(red, orange); /* Standard syntax */
+	/* @alternate */ background: -webkit-linear-gradient(red, orange); /* For Safari 5.1 to 6.0 */
+	/* @alternate */ background: -o-linear-gradient(red, orange); /* For Opera 11.1 to 12.0 */
+	/* @alternate */ background: -moz-linear-gradient(red, orange); /* For Firefox 3.6 to 15 */
+	/* @alternate */ background: linear-gradient(red, orange); /* Standard syntax */
 }
 
 #nav-buttons:hover {
 	background: orange; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(orange, red); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(orange, red); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(orange, red); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(orange, red); /* Standard syntax */
+	/* @alternate */ background: -webkit-linear-gradient(orange, red); /* For Safari 5.1 to 6.0 */
+	/* @alternate */ background: -o-linear-gradient(orange, red); /* For Opera 11.1 to 12.0 */
+	/* @alternate */ background: -moz-linear-gradient(orange, red); /* For Firefox 3.6 to 15 */
+	/* @alternate */ background: linear-gradient(orange, red); /* Standard syntax */
 	-o-transition: all 1s ease-in-out;
 	-ms-transition: all 1s ease-in-out;
 	-moz-transition: all 1s ease-in-out;
@@ -199,10 +198,10 @@ p {
 .edit_log {
 	border-bottom:1px solid #fff;
 	background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(red, orange); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(red, orange); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(red, orange); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(red, orange); /* Standard syntax */
+    /* @alternate */ background: -webkit-linear-gradient(red, orange); /* For Safari 5.1 to 6.0 */
+    /* @alternate */ background: -o-linear-gradient(red, orange); /* For Opera 11.1 to 12.0 */
+    /* @alternate */ background: -moz-linear-gradient(red, orange); /* For Firefox 3.6 to 15 */
+    /* @alternate */ background: linear-gradient(red, orange); /* Standard syntax */
 }
 
 #edit_log:hover {
@@ -368,7 +367,7 @@ footer p {
 ----------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 992px) {
     body {
-    	display: flex
+    	display: flex;
     	min-width: 100%;
     }
 
