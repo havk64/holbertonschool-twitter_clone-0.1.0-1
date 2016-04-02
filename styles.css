@@ -119,7 +119,7 @@ p {
 }
 
 #container-header { /* Children divs for Flexbox are #logo, #tagline, #nav-div, #login */
-	background-image: url(header-image.jpg);
+	background-image: url(img/header-image.jpg);
 	height: 170px;
 	display: flex; 
 	flex-direction: row;
